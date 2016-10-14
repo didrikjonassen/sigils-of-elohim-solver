@@ -16,37 +16,91 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         map.put('S', new Boolean[][][]{
-                {{false, true, true}, {true, true, false}},
-                {{true, false}, {true, true}, {false, true}}
+                {
+                        {false, true , true },
+                        {true , true , false}
+                },{
+                        {true , false},
+                        {true , true },
+                        {false, true }
+                }
         });
         map.put('I', new Boolean[][][]{
-                {{true, true, true, true}},
-                {{true}, {true}, {true}, {true}}
+                {
+                        {true , true , true , true }
+                },{
+                        {true },
+                        {true },
+                        {true },
+                        {true }
+                }
         });
         map.put('O', new Boolean[][][]{
-                {{true, true}, {true, true}}
+                {
+                        {true , true },
+                        {true , true }
+                }
         });
         map.put('Z', new Boolean[][][]{
-                {{true, true, false}, {false, true, true}},
-                {{false, true}, {true, true}, {true, false}}
+                {
+                        {true , true , false},
+                        {false, true , true }
+                },{
+                        {false, true },
+                        {true , true },
+                        {true , false}
+                }
         });
         map.put('J', new Boolean[][][]{
-                {{false, true}, {false, true}, {true, true}},
-                {{true, false, false}, {true, true, true}},
-                {{true, true}, {true, false}, {true, false}},
-                {{true, true, true}, {false, false, true}}
+                {
+                        {false, true },
+                        {false, true },
+                        {true , true }
+                },{
+                        {true , false, false},
+                        {true , true , true }
+                },{
+                        {true , true },
+                        {true , false},
+                        {true , false}
+                },{
+                        {true , true , true },
+                        {false, false, true }
+                }
         });
         map.put('L', new Boolean[][][]{
-                {{true, false}, {true, false}, {true, true}},
-                {{true, true, true}, {true, false, false}},
-                {{true, true}, {false, true}, {false, true}},
-                {{false, false, true}, {true, true, true}}
+                {
+                        {true , false},
+                        {true , false},
+                        {true , true }
+                },{
+                        {true , true , true },
+                        {true , false, false}
+                },{
+                        {true , true },
+                        {false, true },
+                        {false, true }
+                },{
+                        {false, false, true },
+                        {true , true , true }
+                }
         });
         map.put('T', new Boolean[][][]{
-                {{false, true, false}, {true, true, true}},
-                {{true, false}, {true, true}, {true, false}},
-                {{true, true, true}, {false, true, false}},
-                {{false, true}, {true, true}, {false, true}}
+                {
+                        {false, true , false},
+                        {true , true , true }
+                },{
+                        {true , false},
+                        {true , true },
+                        {true , false}
+                },{
+                        {true , true , true },
+                        {false, true , false}
+                },{
+                        {false, true },
+                        {true , true },
+                        {false, true }
+                }
         });
 
         int[][] board = new int[readInt()][readInt()];

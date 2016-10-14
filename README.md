@@ -1,5 +1,5 @@
 # Sigils of Elohim Solver
-Intuitive solver for the puzzle game Sigils of Elohim
+Intuitive but inefficient solver for the puzzle game Sigils of Elohim. Solves the harder problems in a few seconds.
 
 ## Usage
 Start the program.  
